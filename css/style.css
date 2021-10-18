@@ -4,12 +4,14 @@
     box-sizing: border-box;
 }
 
+/* versione su smartphone */
 img {
     display: block;
     border: 1px solid red;
     margin: 5px auto;
 }
 
+/* versione su tablet */
 @media screen and (min-width: 569px){
     .container {
         text-align: center;
@@ -22,3 +24,16 @@ img {
         vertical-align: middle;
     }
 }
+
+
+/* versione desktop */
+@media screen and (min-width: 781px){
+    .container {
+        max-width: 100%;
+    }
+}
+
+
+
+
+
